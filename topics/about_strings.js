@@ -30,5 +30,5 @@ test("string.length", function() {
 
 test("slice", function() {
     var fruit = "apple pie";
-    equal(__, fruit.slice(0,5), 'what is the value of fruit.slice(0,5)?');
+    equal("apple", fruit.slice(0,5), 'what is the value of fruit.slice(0,5)?');
 });
