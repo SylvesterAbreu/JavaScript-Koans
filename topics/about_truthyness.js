@@ -13,7 +13,7 @@ test("truthyness of negative numbers", function() {
 
 test("truthyness of zero", function() {
     var zeroIsTruthy = 0 ? true : false;
-    equal(__, zeroIsTruthy, 'is 0 truthy?');
+    equal(false, zeroIsTruthy, 'is 0 truthy?');
 });
 
 test("truthyness of null", function() {
