@@ -32,7 +32,7 @@ test("assignment subtraction", function() {
   for (var i = 0; i <= 2; i++) {
     result -= i;
   }
-  equal(__, result, "What is the value of result?");
+  equal(2, result, "What is the value of result?");
 });
 
 //Assignment operators are available for multiplication and division as well
