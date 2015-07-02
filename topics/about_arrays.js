@@ -13,7 +13,7 @@ test("array type", function() {
 
 test("length", function() {
     var collection = ['a','b','c'];
-    equal(__, collection.length, 'what is the length of the collection array?');
+    equal(3, collection.length, 'what is the length of the collection array?');
 });
 
 test("splice", function() {
