@@ -64,7 +64,7 @@ test("switch default case", function() {
             result = "Merry";
             break;
     }
-    equal(__, result, 'what is the value of result?');
+    equal("Merry", result, 'what is the value of result?');
 });
 
 test("null coalescing", function() {
