@@ -25,8 +25,8 @@ test("dynamically adding properties", function() {
 
 test("adding properties from strings", function() {
     var person = {};
-    person["__"] = "Amory Blaine";
-    person["__"] = 102;
+    person["name"] = "Amory Blaine";
+    person["age"] = 102;
     equal("Amory Blaine", person.name, "what is the person's name?");
     equal(102, person.age, "what is the person's age?");
 });
