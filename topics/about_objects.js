@@ -8,8 +8,8 @@ test("object type", function() {
 
 test("object literal notation", function() {
     var person = {
-        __:__,
-        __:__
+        name:"Amory Blaine",
+        age:102
     };
     equal("Amory Blaine", person.name, "what is the person's name?");
     equal(102, person.age, "what is the person's age?");
