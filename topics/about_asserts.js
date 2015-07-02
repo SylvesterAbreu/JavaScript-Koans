@@ -6,7 +6,7 @@ test("ok", function() {
 });
 
 test("not ok", function() {
-    ok(__ === false, 'what is a false value?');
+    ok(false === false, 'what is a false value?');
 });
 
 test("equal", function() {
