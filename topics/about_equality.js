@@ -10,7 +10,7 @@ test("string equality", function() {
 });
 
 test("equality without type coercion", function() {
-    ok(3 === __, 'what is exactly equal to 3?');
+    ok(3 === 3, 'what is exactly equal to 3?');
 });
 
 test("equality with type coercion", function() {
