@@ -10,5 +10,5 @@ test("not ok", function() {
 });
 
 test("equal", function() {
-    equal(__, 1 + 1, 'what will satisfy the equal assertion?');
+    equal(2, 1 + 1, 'what will satisfy the equal assertion?');
 });
