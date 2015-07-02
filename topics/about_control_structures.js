@@ -35,7 +35,7 @@ test("ternary operator", function() {
 	equal("apple", fruit, 'what is the value of fruit?');
 
 	fruit = false ? "apple" : "orange";
-	equal(__, fruit, 'now what is the value of fruit?');
+	equal("orange", fruit, 'now what is the value of fruit?');
 });
 
 test("switch", function() {
