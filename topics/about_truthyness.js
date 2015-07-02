@@ -8,7 +8,7 @@ test("truthyness of positive numbers", function() {
 
 test("truthyness of negative numbers", function() {
     var negativeOneIsTruthy = -1 ? true : false;
-    equal(__, negativeOneIsTruthy, 'is -1 truthy?');
+    equal(true, negativeOneIsTruthy, 'is -1 truthy?');
 });
 
 test("truthyness of zero", function() {
