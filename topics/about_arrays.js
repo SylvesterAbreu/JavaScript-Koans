@@ -18,9 +18,9 @@ test("length", function() {
 
 test("splice", function() {
     var daysOfWeek = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
-    var workingWeek = daysOfWeek.splice(__, __);
-    ok(workingWeek.equalTo([__]), 'what is the value of workingWeek?');
-    ok(daysOfWeek.equalTo([__]), 'what is the value of daysOfWeek?');
+    var workingWeek = daysOfWeek.splice(0, 5);
+    ok(workingWeek.equalTo(['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday']), 'what is the value of workingWeek?');
+    ok(daysOfWeek.equalTo(['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']), 'what is the value of daysOfWeek?');
 });
 
 test("stack methods", function() {
