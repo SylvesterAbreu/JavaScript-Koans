@@ -27,8 +27,8 @@ child.b = 2;
  * */
 
 test("Is there an 'a' and 'b' own property on child?", function () {
-  equal(__, child.hasOwnProperty('a'), 'child.hasOwnProperty(\'a\')?');
-  equal(__, child.hasOwnProperty('b'), 'child.hasOwnProperty(\'b\')?');
+  equal(true, child.hasOwnProperty('a'), 'child.hasOwnProperty(\'a\')?');
+  equal(true, child.hasOwnProperty('b'), 'child.hasOwnProperty(\'b\')?');
 });
 
 test("Is there an 'a' and 'b' property on child?", function () {
