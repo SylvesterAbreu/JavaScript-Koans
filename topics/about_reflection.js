@@ -64,5 +64,5 @@ test("eval", function() {
     // eval executes a string
     var result = "";
     eval("result = 'apple' + ' ' + 'pie'");
-    equal(__, result, 'what is the value of result?');
+    equal('apple pie', result, 'what is the value of result?');
 });
