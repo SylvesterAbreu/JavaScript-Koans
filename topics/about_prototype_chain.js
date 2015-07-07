@@ -32,8 +32,8 @@ test("Is there an 'a' and 'b' own property on child?", function () {
 });
 
 test("Is there an 'a' and 'b' property on child?", function () {
-  equal(__, child.a, 'what is \'a\' value?');
-  equal(__, child.b, 'what is \'b\' value?');
+  equal(1, child.a, 'what is \'a\' value?');
+  equal(2, child.b, 'what is \'b\' value?');
 });
 
 test("If 'b' was removed, whats b value?", function () {
