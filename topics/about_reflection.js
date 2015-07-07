@@ -37,8 +37,8 @@ test("hasOwnProperty", function() {
     for (propertyName in b) {
         keys.push(propertyName);
     }
-    equal(__, keys.length, 'how many elements are in the keys array?');
-    deepEqual([__, __], keys, 'what are the properties of the array?');
+    equal(2, keys.length, 'how many elements are in the keys array?');
+    deepEqual(['bprop', 'aprop'], keys, 'what are the properties of the array?');
 
     // hasOwnProperty returns true if the parameter is a property directly on the object, 
     // but not if it is a property accessible via the prototype chain.
@@ -48,8 +48,8 @@ test("hasOwnProperty", function() {
             ownKeys.push(propertyName);
         }
     }
-    equal(__, ownKeys.length, 'how many elements are in the ownKeys array?');
-    deepEqual([__], ownKeys, 'what are the own properties of the array?');
+    equal(1, ownKeys.length, 'how many elements are in the ownKeys array?');
+    deepEqual(['bprop'], ownKeys, 'what are the own properties of the array?');
 });
 
 test("constructor property", function () {
