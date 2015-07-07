@@ -49,7 +49,7 @@ test("Is there a 'c' own property on child?", function () {
 // Is there a 'c' own property on child? No, check its prototype
 // Is there a 'c' own property on child.[[Prototype]]? Yes, its value is...
 test("Is there a 'c' property on child?", function () {
-  equal(__, child.c, 'what is the value of child.c?');
+  equal(4, child.c, 'what is the value of child.c?');
 });
 
 
