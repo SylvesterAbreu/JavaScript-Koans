@@ -43,7 +43,7 @@ test("If 'b' was removed, whats b value?", function () {
 
 
 test("Is there a 'c' own property on child?", function () {
-  equal(__, child.hasOwnProperty('c'), 'child.hasOwnProperty(\'c\')?');
+  equal(false, child.hasOwnProperty('c'), 'child.hasOwnProperty(\'c\')?');
 });
 
 // Is there a 'c' own property on child? No, check its prototype
